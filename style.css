@@ -1,0 +1,169 @@
+/* TCS-inspired Company Theme */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f5faff, #eaf2fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+/* .form-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #d0e2f2;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #0056a8; /* TCS-style blue */
+/* }
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    background-color: #f2f6fa;
+    border: 1px solid #ccdcec;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    background-color: #ffffff;
+    border-color: #0056a8;
+    box-shadow: 0 0 4px rgba(0, 86, 168, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056a8;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003f7d;
+} */ 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(120deg, #fddde6, #dbeafe);
+    background-size: 200% 200%;
+    animation: gradientFlow 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 0 15px rgba(255, 192, 203, 0.4);
+    border: 2px solid #ffb6c1;
+    animation: fadeIn 1s ease-out;
+}
+
+h2 {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px #ffc0cb;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: #fff0f5;
+    border: 1px solid #ffc0cb;
+    border-radius: 10px;
+    color: #333;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    background-color: #ffe4ec;
+    border-color: #ff69b4;
+    box-shadow: 0 0 10px #ffc0cb;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ff69b4, #ffa7c4);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px #ffaec9;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ffa7c4, #ff69b4);
+    transform: scale(1.05);
+    box-shadow: 0 0 18px #ffc0cb;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
